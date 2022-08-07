@@ -71,7 +71,7 @@ setup(
 name=NAME,
 version=VERSION,
 description=DESCRIPTION,
-long_description=open('README.md').read(),
+long_description=open('README.md', "rb").read(),
 long_description_content_type="text/markdown",
 author='LuShan',
 author_email='188301710@qq.com',
